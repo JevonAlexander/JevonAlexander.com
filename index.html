@@ -9,6 +9,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -60,10 +63,10 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
                     Hello, my name is Jevon Alexander Darmawan, I'm 10 years old, I'm an Animator and Content Creator.
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     My Hobby is Making Design and Animation, you can check my instagram, <a href="https://www.instagram.com/jevon_animation/?hl=id">CLICK HERE</a>
                 </div>
             </div>
@@ -81,23 +84,23 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
-                  <div class="card">
+                <div class="col-md-4 mb-3" data-aos-duration="500">
+                  <div class="card" data-aos="flip-left">
                     <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                       <p class="card-text">This is my Favorite Art.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
-                  <div class="card">
+                <div class="col-md-4 mb-3" data-aos-duration="500" data-aos-delay="100">
+                  <div class="card" data-aos="flip-left">
                     <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                       <p class="card-text">This is one of my favorite art, because i drew it for 40 HOURS straight (No Sleep).</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                   <div class="card">
                     <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
                     <div class="card-body">
@@ -105,7 +108,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                   <div class="card">
                     <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4">
                     <div class="card-body">
@@ -113,7 +116,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                   <div class="card">
                     <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5">
                     <div class="card-body">
@@ -175,6 +178,13 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxYgx6u45Ds4wiH1NR1hNGd1QZAlqMoqlEBm0QIY1sg9uxPlDQrM6KsNht3BgAWr_JXqg/exec'
